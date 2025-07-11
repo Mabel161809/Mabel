@@ -1,0 +1,159 @@
+.mali-regular {
+    font-family: "Mali", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  
+  body{
+    font-family: "Mali", cursive;
+    background: url(img/background.jpg);  
+    background-size: 70%;
+    background-repeat: repeat;
+  }
+
+  header {
+    background-image: url(img/æspa\ header.jpg);
+    background-repeat: repeat;
+    color: #D1B2FF ;    
+    font-size: 3em; text-shadow: 2px 2px 5px #87CEEB;
+    background-size: auto;
+    background-position: center 50%;
+  }
+
+header > section{
+    padding: 1em 10% 1em 10%; 
+    text-align: center;
+}
+
+ul.menu {
+    background-color: #D1B2FF;
+    margin: 0px;
+    list-style-type: none ;
+    padding: 0 10% 0 23%; 
+    position: relative; overflow: auto; 
+}
+ul.menu li a {
+    text-decoration: none;
+    color: black; font-size: 1.3em;
+    float: left;
+    padding: 0 3% 0 3% ;
+}
+ul.menu li a:hover{
+    color: #FFFFFF;
+}
+
+article{
+    display: block;
+    color: #D1B2FF;
+}
+article > section {
+    padding: 1em 10% 1em 10%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+article > section > b > h2{
+    text-align: center;
+    font-size: 3em; text-shadow: 2px 2px 5px black;
+}
+
+article > section > b >h3 {
+    text-align: center;
+    font-size: 2em; text-shadow: 2px 2px 5px black;
+}
+
+article > section > b >h4 {
+    font-size: 2em; text-shadow: 2px 2px 5px black;
+}
+
+article > section > b > p{
+    font-size: 1.5em;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.cn li {
+    font-size: 1.5em;
+    list-style-type: none ;
+}
+.cn li a:link {
+    color: #7419ba;
+    text-decoration: none;
+}
+.cn li a:hover {
+    color: #87CEEB;
+}
+
+#img1 { 
+    width: 60%;
+    border-radius: 20px;
+    display: block; margin: 0 auto 0 auto;
+}
+#img2  { 
+    width: 20%;
+    border-radius: 20px;
+    float: left;
+    margin: 20px;
+}
+#img3  { 
+    width: 30%;
+    border-radius: 20px;
+    float: left;
+    margin: 20px;
+}
+#img4  { 
+    width: 30%;
+    border-radius: 20px;
+    float: right;
+    margin: 20px;
+}
+#img5  { 
+    width: 40%;
+    border-radius: 20px;
+    margin: 20px;
+    display: block; margin: 0 auto 0 auto;
+
+}
+
+#pl1 {
+    float: left;
+    margin: 20px;
+}
+#pl2 {
+    float: right;
+    margin: 20px;
+}
+
+.link a:link {
+    color: #7419ba;
+    text-decoration: none;
+}
+.link a:hover {
+    color: #87CEEB;
+}
+
+#web{  display: block;               
+    margin-left: auto;          
+    margin-right: auto;  }
+
+#icon { 
+        height: 1.5em;
+        vertical-align: top;
+}
+
+#icon2 {
+        width: 1.5em; height: 1.5em; ;
+}
+
+footer {
+    background: #D1B2FF ;
+    color: black;
+    padding: 1em 10% 1em 10%;
+}
+footer > section:first-child {  
+    float: right; 
+    width: 50%;
+}
+footer > section > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
